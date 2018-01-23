@@ -39,6 +39,14 @@ body {
 2. MAIN HEADER
 ***********************************/
 
+.banner {
+	background-image: url('../assets/img/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 30em;
+}
+
 
 
 /***********************************
@@ -70,9 +78,18 @@ body {
 ***********************************/
 
 /* General */
-body {
+body,
+a {
 	color: #fff;
 	background-color: gray;
+}
+
+a {
+	transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+	color: #9bf1ff; 
 }
 
 

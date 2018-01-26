@@ -49,35 +49,35 @@ a:hover {
 
 
 
+.bg-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
 /***********************************
 2. MAIN HEADER
 ***********************************/
 
 .main-header-wrap {
 	background-image: url('../assets/img/banner.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	min-height: 27em;
-	position: relative;
-	z-index: 1;
 }
 
-/* Fix issue with text overlay, delete z index's as needed */
-.main-header-wrap::before {
-	content: "";
+.main-header-wrap .overlay {
 	background-color: rgba(36, 41, 67, 0.85);
-	position: absolute;
-	display: block;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
 }
 
-.main-header,
-.banner {
-	z-index: 100;
-}
+
+
 
 
 

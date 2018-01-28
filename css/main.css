@@ -69,8 +69,14 @@ body {
 .main-header {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 -1%;
+	align-items: flex-start;
+	margin: 1em -1% 5em;
 }
+
+#nav-hook {
+	background: transparent;
+}
+
 
 
 
@@ -114,7 +120,8 @@ a {
 	transition: color 0.2s ease-in-out;
 }
 
-a:hover {
+a:hover,
+a:focus {
 	color: #9bf1ff; 
 }
 
@@ -126,7 +133,9 @@ a:hover {
 }
 
 .site-logo:hover,
-.msg-btn:hover {
+.msg-btn:hover,
+.site-logo:focus,
+.msg-btn:focus {
 	background-color: #9bf1ff;
 	color: #242943;
 }
@@ -134,6 +143,16 @@ a:hover {
 /* Main Header */
 .main-header-wrap .overlay {
 	background-color: rgba(36, 41, 67, 0.85);
+}
+
+.nav-bar {
+	fill: #fff;
+	transition: fill 0.2s ease-in-out;
+}
+
+.nav-bar:hover,
+.nav-bar:focus {
+	fill: #9bf1ff;
 }
 
 /***********************************

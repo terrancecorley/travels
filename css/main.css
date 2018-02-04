@@ -79,7 +79,7 @@ body {
 
 .nav-bar {
 	margin-right: -2.2em;
-	margin-top: -0.575em;
+	margin-top: -0.6em;
 }
 
 
@@ -129,16 +129,16 @@ a:focus {
 	color: #9bf1ff; 
 }
 
-.site-logo,
+.logo-hook,
 .msg-btn {
 	background-color: #fff;
 	color: #242943;
 	transition: background-color 0.2s ease-in-out;
 }
 
-.site-logo:hover,
+.logo-hook:hover,
 .msg-btn:hover,
-.site-logo:focus,
+.logo-hook:focus,
 .msg-btn:focus {
 	background-color: #9bf1ff;
 	color: #242943;

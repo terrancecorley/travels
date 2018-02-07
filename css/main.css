@@ -31,6 +31,7 @@ html {
 body {
 	line-height: 1.5;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
 }
 
 .uppercase {
@@ -56,6 +57,10 @@ body {
 	height: 100%;
 }
 
+.hidden-sm {
+	display: none;
+}
+
 
 /***********************************
 2. MAIN HEADER
@@ -63,14 +68,22 @@ body {
 
 .main-header-wrap {
 	background-image: url('../assets/img/banner.jpg');
-	min-height: 27em;
+	min-height: 23em;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 
 .main-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin: 1em -1% 5em;
+	margin: 1em -1% 2em;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+}
+
+.site-logo {
+	padding: 0.25em;
 }
 
 #nav-hook {
@@ -78,9 +91,27 @@ body {
 }
 
 .nav-bar {
-	margin-right: -2.2em;
+	margin-right: -2.8em;
 	margin-top: -0.6em;
 }
+
+.banner {
+	padding: 0 0.6em;
+}
+
+.banner h1 {
+	font-size: 1.6em;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.3em;
+}
+
+.banner p {
+	font-size: 0.65em;
+	letter-spacing: 0.1em;
+	margin: 2.3em 0 1.3em;
+}
+
+
 
 
 

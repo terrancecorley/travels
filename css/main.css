@@ -82,8 +82,10 @@ body {
 	letter-spacing: 0.2em;
 }
 
+.logo-hook,
 .site-logo {
 	padding: 0.25em;
+	font-size: 0.975em;
 }
 
 #nav-hook {
@@ -92,7 +94,7 @@ body {
 
 .nav-bar {
 	margin-right: -2.8em;
-	margin-top: -0.6em;
+	margin-top: -0.55em;
 }
 
 .banner {
@@ -144,15 +146,18 @@ body {
 ***********************************/
 
 /* General */
+body {
+	background-color: gray; /*delete this*/
+}
+
 body,
 a {
 	color: #fff;
-	background-color: gray;
 }
 
 a {
 	text-decoration: none;
-	transition: color 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 a:hover,
@@ -175,6 +180,21 @@ a:focus {
 	color: #242943;
 }
 
+.home-btn {
+	border: 2px solid #fff;
+}
+
+.home-btn:hover {
+	border-color: #9bf1ff;
+}
+
+.arrow {
+	transition: all 0.2s ease-in-out;
+}
+
+.home-btn:hover .arrow {
+	fill: #9bf1ff;
+}
 
 
 /* Main Header */

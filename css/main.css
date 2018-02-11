@@ -4,7 +4,7 @@
     2. Main Header
     3. Gallery Section
     4. Homepage Hook
-    5. Section
+    5. Contact Section
     6. Main Footer
     7. Colors & Borders
     8. Media Queries
@@ -33,6 +33,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	overflow-x: hidden;
+	max-width: 100vw;
 }
 
 img {
@@ -239,8 +240,14 @@ img {
 
 
 /***********************************
-5. PAGE
+5. Contact Section
 ***********************************/
+
+.form-container {
+	min-height: 30em;
+	display: flex;
+	border: 1px solid red; /*delete this*/
+}
 
 
 
@@ -257,7 +264,7 @@ img {
 /* General */
 
 body {
-	background-color: gray; /*delete this*/
+	background-color: #242943;
 }
 
 body,

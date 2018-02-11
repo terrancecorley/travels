@@ -144,7 +144,7 @@ img {
 
 .gallery {
 	display: grid;
-	grid-template-rows: repeat(6, 18.125em);
+	grid-template-rows: repeat(6, 20em);
 }
 
 .gallery > div {
@@ -154,7 +154,11 @@ img {
 }
 
 .gallery-img1 {
-	background-image: url(../assets/img/gallery-img-01.jpg);
+	background: linear-gradient(
+								rgba(111, 195, 223, 0.85),
+								rgba(111, 195, 223, 0.85)
+							),
+							url(../assets/img/gallery-img-01.jpg);
 }
 
 .gallery-img2 {
@@ -203,14 +207,6 @@ img {
 /* General */
 body {
 	background-color: gray; /*delete this*/
-}
-
-.gallery div:nth-child(even) { 
-	background-color: orange; /*delete this*/
-}
-
-.gallery div:nth-child(odd) {
-	background-color: green; /*delete this*/
 }
 
 body,

@@ -151,33 +151,40 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.gallery > div:hover {
+	box-shadow: none;
 }
 
 .gallery-img1 {
-	background: linear-gradient(
-								rgba(111, 195, 223, 0.85),
-								rgba(111, 195, 223, 0.85)
-							),
-							url(../assets/img/gallery-img-01.jpg);
+	box-shadow: 0 20em rgba(111, 195, 223, 0.7) inset;
+	background-image: url(../assets/img/gallery-img-01.jpg);
 }
 
 .gallery-img2 {
+	box-shadow: 0 20em rgba(141, 130, 196, 0.7) inset;
 	background-image: url(../assets/img/gallery-img-02.jpg);
 }
 
 .gallery-img3 {
+	box-shadow: 0 20em rgba(236, 141, 129, 0.7) inset;
 	background-image: url(../assets/img/gallery-img-03.jpg);
 }
 
 .gallery-img4 {
+	box-shadow: 0 20em rgba(231, 183, 136, 0.7) inset;
 	background-image: url(../assets/img/gallery-img-04.jpg);
 }
 
 .gallery-img5 {
+	box-shadow: 0 20em rgba(142, 169, 232, 0.7) inset;
 	background-image: url(../assets/img/gallery-img-05.jpg);
 }
 
 .gallery-img6 {
+	box-shadow: 0 20em rgba(135, 197, 164, 0.7) inset;
 	background-image: url(../assets/img/gallery-img-06.jpg);
 }
 

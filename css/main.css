@@ -3,7 +3,7 @@
     1. General
     2. Main Header
     3. Gallery Section
-    4. Section
+    4. Homepage Hook
     5. Section
     6. Main Footer
     7. Colors & Borders
@@ -32,6 +32,7 @@ body {
 	line-height: 1.5;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
+	overflow-x: hidden;
 }
 
 img {
@@ -114,7 +115,7 @@ img {
 }
 
 .nav-bar {
-	margin-right: -2.8em;
+	margin-right: -2.4em;
 	margin-top: -0.45em;
 }
 
@@ -210,8 +211,24 @@ img {
 
 
 /***********************************
-4. PAGE
+4. HOMEPAGE HOOK 
 ***********************************/
+
+.homepage-hook {
+	min-height: 513px;
+	padding: 3em 4%;
+}
+
+.homepage-hook h2 {
+	margin-top: 0;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 0.25em;
+	width: 6em;
+}
+
+.homepage-hook p {
+	line-height: 1.6;
+}
 
 
 
@@ -232,6 +249,7 @@ img {
 ***********************************/
 
 /* General */
+
 body {
 	background-color: gray; /*delete this*/
 }
@@ -282,7 +300,6 @@ a:focus {
 	fill: #9bf1ff;
 }
 
-
 /* Main Header */
 .main-header-wrap .overlay {
 	background-color: rgba(36, 41, 67, 0.85);
@@ -296,6 +313,11 @@ a:focus {
 .nav-bar:hover,
 .nav-bar:focus {
 	fill: #9bf1ff;
+}
+
+/* Homepage Hook */
+.homepage-hook {
+	background-color: #2a2f4a;
 }
 
 /***********************************

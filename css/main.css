@@ -215,7 +215,7 @@ img {
 ***********************************/
 
 .homepage-hook {
-	min-height: 513px;
+	min-height: 31.25em;
 	padding: 3em 4%;
 }
 
@@ -227,7 +227,13 @@ img {
 }
 
 .homepage-hook p {
-	line-height: 1.6;
+	line-height: 1.7;
+}
+
+.homepage-hook .home-btn {
+	margin-top: 3em;
+	font-size: 0.825em;
+	font-weight: bold;
 }
 
 

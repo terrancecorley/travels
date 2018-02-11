@@ -152,10 +152,30 @@ img {
 	background-size: cover;
 	background-position: center;
 	transition: box-shadow 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0 6.5%;
 }
 
 .gallery > div:hover {
 	box-shadow: none;
+}
+
+.gallery h2 {
+	border-bottom: 2px solid #fff;
+	margin: 0;
+	padding-bottom: 0.25em;
+	width: 6.775em;
+}
+
+.gallery p {
+	font-size: 0.7em;
+	margin: 1em 0 0;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .gallery-img1 {

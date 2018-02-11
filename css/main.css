@@ -61,6 +61,20 @@ body {
 	display: none;
 }
 
+.home-btn {
+	display: flex;
+	font-size: 0.7em;
+	padding: 0.25em 0;
+	width: 15em;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.2em;
+}
+
+.home-btn > :first-child {
+	margin-right: 1em;
+}
+
 
 /***********************************
 2. MAIN HEADER
@@ -77,15 +91,15 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin: 1em -1% 2em;
+	margin: 1em -1% 1em;
 	font-size: 0.9em;
 	letter-spacing: 0.2em;
 }
 
 .logo-hook,
 .site-logo {
-	padding: 0.25em;
-	font-size: 0.975em;
+	padding: 0.325em;
+	font-size: 0.875em;
 }
 
 #nav-hook {
@@ -94,7 +108,7 @@ body {
 
 .nav-bar {
 	margin-right: -2.8em;
-	margin-top: -0.55em;
+	margin-top: -0.45em;
 }
 
 .banner {

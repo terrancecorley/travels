@@ -2,7 +2,7 @@
   Table of Contents
     1. General
     2. Main Header
-    3. Section
+    3. Gallery Section
     4. Section
     5. Section
     6. Main Footer
@@ -34,12 +34,15 @@ body {
 	font-weight: 300;
 }
 
+img {
+	max-width: 100%;
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
 
 .overlay,
-.main-content,
 .main-footer {
 	padding: 0 4%;
 }
@@ -73,6 +76,10 @@ body {
 
 .home-btn > :first-child {
 	margin-right: 1em;
+}
+
+.main-content {
+	font-size: 1rem;
 }
 
 
@@ -132,9 +139,43 @@ body {
 
 
 /***********************************
-3. PAGE
+3. GALLERY SECTION
 ***********************************/
 
+.gallery {
+	display: grid;
+	grid-template-rows: repeat(6, 18.125em);
+}
+
+.gallery > div {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.gallery-img1 {
+	background-image: url(../assets/img/gallery-img-01.jpg);
+}
+
+.gallery-img2 {
+	background-image: url(../assets/img/gallery-img-02.jpg);
+}
+
+.gallery-img3 {
+	background-image: url(../assets/img/gallery-img-03.jpg);
+}
+
+.gallery-img4 {
+	background-image: url(../assets/img/gallery-img-04.jpg);
+}
+
+.gallery-img5 {
+	background-image: url(../assets/img/gallery-img-05.jpg);
+}
+
+.gallery-img6 {
+	background-image: url(../assets/img/gallery-img-06.jpg);
+}
 
 
 /***********************************
@@ -162,6 +203,14 @@ body {
 /* General */
 body {
 	background-color: gray; /*delete this*/
+}
+
+.gallery div:nth-child(even) { 
+	background-color: orange; /*delete this*/
+}
+
+.gallery div:nth-child(odd) {
+	background-color: green; /*delete this*/
 }
 
 body,

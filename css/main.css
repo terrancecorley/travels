@@ -243,10 +243,60 @@ img {
 5. Contact Section
 ***********************************/
 
+.contact {
+	padding: 4em 4%;
+}
+
 .form-container {
 	min-height: 30em;
+	font-weight: 600;
+	font-size: 0.875em;
+	letter-spacing: 0.2em;
+}
+
+.form-container form {
 	display: flex;
-	border: 1px solid red; /*delete this*/
+	flex-wrap: wrap;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea {
+	flex-basis: 100%;
+}
+
+.form-container input,
+.form-container textarea {
+	padding: 1em;
+}
+
+.form-container label {
+	margin-bottom: 1em;
+}
+
+.form-container input {
+	height: 3em;
+	margin-bottom: 2em;
+}
+
+.msg-btn,
+.clear-btn {
+	font-size: 0.825em;
+	font-weight: bold;
+	margin-top: 3em;
+	padding: 1.25em 0.5em;
+	letter-spacing: 0.25em;
+	cursor: pointer;
+}
+
+.msg-btn {
+	flex-basis: 45%;
+	padding: 1.25em 1.5em;
+}
+
+.clear-btn {
+	flex-basis: 30%;
+	margin-left: 1.5em;
 }
 
 
@@ -331,6 +381,34 @@ a:focus {
 /* Homepage Hook */
 .homepage-hook {
 	background-color: #2a2f4a;
+}
+
+/* Contact Section */
+.form-container input,
+.form-container textarea {
+	background-color: #2a2f4a;
+	border: none;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+	border: 2px solid #9bf1ff;
+}
+
+.msg-btn {
+	border: none;
+}
+
+.clear-btn {
+	border: 2px solid #fff;
+	background-color: #242943;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.clear-btn:hover {
+	border-color: #9bf1ff;
+	color: #9bf1ff;
 }
 
 /***********************************

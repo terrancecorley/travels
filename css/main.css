@@ -575,6 +575,16 @@ a:focus {
 		margin-top: 0;
 	}
 
+	/* Gallery Styles */
+	.gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(3, 16em);
+	}
+
+	.gallery > div {
+		align-items: center;
+	}
 
 
 }

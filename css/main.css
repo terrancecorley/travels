@@ -586,5 +586,27 @@ a:focus {
 		align-items: center;
 	}
 
+	/* Contact Styles */
+	.form-container label,
+	.form-container input{
+		flex-basis: 45%;
+	}
+
+	form > * {
+		order: 2;
+	}
+
+	.name-label,
+	.user_name {
+		margin-right: auto;
+	}
+
+	.name-label {
+		order: -1;
+	}
+
+	.email-label {
+		order: 1;
+	}
 
 }

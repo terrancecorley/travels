@@ -609,4 +609,13 @@ a:focus {
 		order: 1;
 	}
 
+	/* Main Footer Styles */
+	.copyright br {
+		display: none;
+	}
+
+	.ver-bar {
+		margin: 0 0.5em;
+	}
+
 }

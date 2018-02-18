@@ -290,12 +290,11 @@ img {
 }
 
 .msg-btn {
-	flex-basis: 45%;
-	padding: 1.25em 1.5em;
+	flex-basis: 14em;
 }
 
 .clear-btn {
-	flex-basis: 30%;
+	flex-basis: 11em;
 	margin-left: 1.5em;
 }
 

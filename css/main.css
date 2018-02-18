@@ -40,6 +40,15 @@ img {
 	max-width: 100%;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
@@ -301,7 +310,7 @@ img {
 }
 
 .contact-info > div {
-	padding: 3em 2em;
+	padding: 2.975em 2em;
 }
 
 .contact-info div h2 {
@@ -336,10 +345,58 @@ img {
 
 
 
-
 /***********************************
 6. MAIN FOOTER
 ***********************************/
+
+.main-footer {
+	font-size: 0.875rem;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: flex-start;
+	margin: 2em 0;
+}
+
+.social-icons li {
+	margin: 0 0.4em;
+}
+
+.social-icons a {
+	display: inline-block;
+	text-indent: -10000px;
+	padding: 0.4em 0.6em;
+	min-height: 20px;
+	width: 40px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+}
+
+.github-icon {
+	background-image: url('../assets/img/github.svg');
+}
+
+.instagram-icon {
+	background-image: url('../assets/img/instagram.svg');
+}
+
+.linkedin-icon {
+	background-image: url('../assets/img/linkedin.svg');
+}
+
+.medium-icon {
+	background-image: url('../assets/img/medium.svg');
+}
+
+.twitter-icon {
+	background-image: url('../assets/img/twitter.svg');
+}
+
+.copyright {
+	padding: 1.5em 0 2em;
+}
 
 
 
@@ -460,6 +517,21 @@ a:focus {
 }
 
 .email:hover {
+	border-bottom: none;
+}
+
+/* Main Footer Styles */
+.copyright,
+.footer-text a {
+	color: rgba(255, 255, 255, 0.1);
+}
+
+.underline {
+	border-bottom:1px dotted rgba(255, 255, 255, 0.1);
+}
+
+.footer-text a:hover {
+	color: #9bf1ff;
 	border-bottom: none;
 }
 

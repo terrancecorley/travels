@@ -243,14 +243,11 @@ img {
 5. Contact Section
 ***********************************/
 
-.contact {
-	padding: 4em 4%;
-}
-
 .form-container {
 	min-height: 30em;
 	font-weight: 600;
 	font-size: 0.875em;
+	padding: 4em 4%;
 	letter-spacing: 0.2em;
 }
 
@@ -297,6 +294,46 @@ img {
 	flex-basis: 11em;
 	margin-left: 1.5em;
 }
+
+.contact-info {
+	font-size: 0.95em;
+	padding: 1em 0;
+}
+
+.contact-info > div {
+	padding: 3em 2em;
+}
+
+.contact-info div h2 {
+	margin: 0.5em 0;
+	padding-left: 45px;
+	min-height: 22px;
+	background-repeat: no-repeat;
+	background-size: 22px 22px;
+	background-position: left center;
+}
+
+.contact-info div a,
+.contact-info address {
+	margin-left: 45px;
+}
+
+.email-hd {
+	background-image: url('../assets/img/email.svg');
+}
+
+.phone-hd {
+	background-image: url('../assets/img/phone.svg');	
+}
+
+.address-hd {
+	background-image: url('../assets/img/address.svg');	
+}
+
+.contact-info address {
+	font-style: normal;
+}
+
 
 
 
@@ -408,6 +445,22 @@ a:focus {
 .clear-btn:hover {
 	border-color: #9bf1ff;
 	color: #9bf1ff;
+}
+
+.contact-info > div {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-info > div:last-child {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.email {
+	border-bottom: 1px dotted #fff;	
+}
+
+.email:hover {
+	border-bottom: none;
 }
 
 /***********************************

@@ -225,7 +225,6 @@ li {
 ***********************************/
 
 .homepage-hook {
-	min-height: 31.25em;
 	padding: 3em 4%;
 }
 
@@ -238,6 +237,7 @@ li {
 
 .homepage-hook p {
 	line-height: 1.7;
+	margin: 1.8em 0;
 }
 
 .homepage-hook .home-btn {

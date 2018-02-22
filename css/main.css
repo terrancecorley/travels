@@ -53,7 +53,8 @@ li {
 	text-transform: uppercase;
 }
 
-.overlay,
+.main-header,
+.banner,
 .main-footer {
 	padding: 0 4%;
 }
@@ -125,12 +126,8 @@ li {
 }
 
 .nav-bar {
-	margin-right: -2.4em;
+	margin-right: -2.9em;
 	margin-top: -0.45em;
-}
-
-.banner {
-	padding: 0 0.6em;
 }
 
 .banner h1 {
@@ -310,7 +307,7 @@ li {
 }
 
 .contact-info > div {
-	padding: 2.975em 2em;
+	padding: 2.975em 4%;
 }
 
 .contact-info div h2 {
@@ -542,12 +539,12 @@ a:focus {
 /* lg-mobile sm-tabs */
 @media screen and (min-width: 30em) {
 
-	/* General Styles */
+	/* General */
 	.hidden-sm {
 		display: initial;
 	}
 
-	/* Main Header Styles */
+	/* Main Header */
 	.main-header-wrap {
 		min-height: 17.1em;
 	}
@@ -576,7 +573,7 @@ a:focus {
 		margin-top: 0;
 	}
 
-	/* Gallery Styles */
+	/* Gallery */
 	.gallery {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -587,7 +584,7 @@ a:focus {
 		align-items: center;
 	}
 
-	/* Contact Styles */
+	/* Contact */
 	.form-container label,
 	.form-container input{
 		flex-basis: 45%;
@@ -610,7 +607,7 @@ a:focus {
 		order: 1;
 	}
 
-	/* Main Footer Styles */
+	/* Main Footer */
 	.copyright br {
 		display: none;
 	}
@@ -623,6 +620,12 @@ a:focus {
 
 /* tablets */
 @media screen and (min-width: 46em) {
+
+	/* General */
+	.banner,
+	.main-footer {
+		padding: 0 6%;
+	}
 
 	/* Main Header */
 	.main-header-wrap {
@@ -648,7 +651,7 @@ a:focus {
 		margin-right: 2em;
 	}
 
-	/* Gallery Styles */
+	/* Gallery */
 	.gallery {
 		grid-template-rows: repeat(3, 16.65em);
 		font-size: 1.2rem;
@@ -665,5 +668,27 @@ a:focus {
 		margin-top: 1.275em;
 	}
 
+	/* Homepage Hook Section */
+	.homepage-hook {
+		font-size: 1.1rem;
+		padding-left: 6%;
+		padding-bottom: 6%;
+	}
+
+	/* Contact Section */
+	.form-container,
+	.contact-info > div {
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+
+	.form-container input {
+		flex-basis: 48%;
+	}
+
+	.contact-info div a,
+	.contact-info div address {
+		font-size: 1.1em;
+	}
 
 }

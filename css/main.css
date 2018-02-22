@@ -692,3 +692,22 @@ a:focus {
 	}
 
 }
+
+/* Lg Tablet Displays */
+@media screen and (min-width: 61.3125em) {
+
+	/* Gallery */
+	.gallery {
+		grid-template-columns: 2fr 1fr 2fr;
+	}
+
+	.gallery div:nth-child(2),
+	.gallery div:last-child {
+		grid-column: 2 / span 2;
+	}
+
+	.gallery div:nth-child(3) {
+		grid-column: 1 / span 2;
+	}
+
+}

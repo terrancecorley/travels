@@ -710,4 +710,43 @@ a:focus {
 		grid-column: 1 / span 2;
 	}
 
+	/* Contact Section */
+	.contact {
+		display: flex;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.form-container,
+	.contact-info {
+		padding-bottom: 0;
+	}
+
+	.form-container {
+		flex-basis: 59%;
+		padding-right: 3.3em;
+	}
+
+	.form-container input {
+		flex-basis: 46%;
+	}
+
+	.contact-info {
+		flex-basis: 41%;
+		padding-top: 0;
+		border-left: 1px solid rgba(255, 255, 255, 0.1); 
+	}
+
+	.contact-info .email-container {
+		border-top: none;
+	}
+
+	.contact-info > div {
+		padding-left: 3.5em;
+	}
+
+	.contact-info > div:last-child {
+		border-bottom: none;
+	}
+
+
 }

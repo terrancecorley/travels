@@ -816,7 +816,18 @@ a:focus {
 
 	/* Contact Section */
 	.contact {
-		font-size: 1.1rem;
+		font-size: 1.150rem;
+	}
+
+	.contact-info div h2 {
+		min-height: 26px;
+		background-size: 26px 26px;
+		padding-left: 52px;
+	}
+
+	.contact-info div a,
+	.contact-info address {
+		margin-left: 52px;
 	}
 
 	/* Main Footer */

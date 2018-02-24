@@ -848,3 +848,22 @@ a:focus {
 	}
 
 }
+
+@media screen and (min-width: 84.25em) {
+
+	/* General */
+	.banner,
+	.main-footer{
+		padding: 0 12%;
+	}
+
+	.homepage-hook {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+
+	.form-container {
+		padding-left: 12%;
+	}
+
+}

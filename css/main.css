@@ -754,6 +754,7 @@ a:focus {
 
 }
 
+/* Laptop Displays */
 @media screen and (min-width: 80.0625em ) {
 
 	/* Main Header */
@@ -776,32 +777,26 @@ a:focus {
 
 	.gallery-img1 {
 		box-shadow: 0 22.3em rgba(111, 195, 223, 0.85) inset;
-		background-image: url(../assets/img/gallery-img-01.jpg);
 	}
 	
 	.gallery-img2 {
 		box-shadow: 0 -22.3em rgba(141, 130, 196, 0.85) inset;
-		background-image: url(../assets/img/gallery-img-02.jpg);
 	}
 	
 	.gallery-img3 {
 		box-shadow: 0 22.3em rgba(236, 141, 129, 0.85) inset;
-		background-image: url(../assets/img/gallery-img-03.jpg);
 	}
 	
 	.gallery-img4 {
 		box-shadow: 0 -22.3em rgba(231, 183, 136, 0.85) inset;
-		background-image: url(../assets/img/gallery-img-04.jpg);
 	}
 	
 	.gallery-img5 {
 		box-shadow: 0 22.3em rgba(142, 169, 232, 0.85) inset;
-		background-image: url(../assets/img/gallery-img-05.jpg);
 	}
 	
 	.gallery-img6 {
 		box-shadow: 0 -22.3em rgba(135, 197, 164, 0.85) inset;
-		background-image: url(../assets/img/gallery-img-06.jpg);
 	}
 
 	.gallery div {
@@ -849,6 +844,7 @@ a:focus {
 
 }
 
+/* Lg laptop displays */
 @media screen and (min-width: 84.25em) {
 
 	/* General */
@@ -865,5 +861,107 @@ a:focus {
 	.form-container {
 		padding-left: 12%;
 	}
+
+}
+
+/* Lg Desktop Displays */
+@media screen and (min-width: 105.0625em) {
+
+	/* General */
+	.banner,
+	.main-footer{
+		padding: 0 16%;
+	}
+
+	.homepage-hook {
+		padding-left: 16%;
+		padding-right: 16%;
+	}
+
+	.form-container {
+		padding-left: 16%;
+	}
+
+	/* Main Header */
+	.main-header-wrap {
+		font-size: 1.5rem;
+		min-height: 30.1em;
+	}
+
+	#nav-hook span {
+		margin-top: 1em;
+	}
+
+	.banner h1 {
+		margin-top: 2.2em;
+	}
+
+	/* Gallery */
+	.gallery {
+		grid-template-rows: repeat(3, 27.125em);
+	}
+
+	.gallery div {
+		font-size: 1.5em;
+	}
+
+	.gallery-img1 {
+		box-shadow: 0 27.125em rgba(111, 195, 223, 0.85) inset;
+	}
+	
+	.gallery-img2 {
+		box-shadow: 0 -27.125em rgba(141, 130, 196, 0.85) inset;
+	}
+	
+	.gallery-img3 {
+		box-shadow: 0 27.125em rgba(236, 141, 129, 0.85) inset;
+	}
+	
+	.gallery-img4 {
+		box-shadow: 0 -27.125em rgba(231, 183, 136, 0.85) inset;
+	}
+	
+	.gallery-img5 {
+		box-shadow: 0 27.125em rgba(142, 169, 232, 0.85) inset;
+	}
+	
+	.gallery-img6 {
+		box-shadow: 0 -27.125em rgba(135, 197, 164, 0.85) inset;
+	}
+
+	/* Homepage Hook Section */
+	.homepage-hook {
+		font-size: 1.6rem;
+	}
+
+	/* Contact Section */
+	.contact {
+		font-size: 1.3rem;
+	}
+
+	.contact-info div h2 {
+		min-height: 28px;
+		background-size: 28px 28px;
+		padding-left: 56px;
+	}
+
+	.contact-info div a,
+	.contact-info address {
+		margin-left: 56px;
+	}
+
+	/* Main Footer */
+	.main-footer {
+		font-size: 1.2rem;
+	}
+
+	.social-icons li {
+		margin-right: 1.3em;
+	}
+
+	.social-icons a {
+		background-size: 32px 32px;
+	}
+
 
 }
